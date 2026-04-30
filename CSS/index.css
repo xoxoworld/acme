@@ -1,136 +1,43 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+.hero h3 {
+  color: var(--white);
 }
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
+
+.features ul {
+  gap: 24px;
+  text-align: center;
 }
-body {
-  line-height: 1;
+.features ul li {
+  display: flex;
+  flex-direction: column;
+  gap: var(--base-unit);
+  align-items: center;
 }
-ol,
-ul {
-  list-style: none;
+.features .icon {
+  width: calc(var(--base-unit) * 4);
+  height: calc(var(--base-unit) * 4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--medium-blue);
+  border-radius: 50%;
+  box-sizing: border-box;
+  color: var(--medium-blue);
 }
-blockquote,
-q {
-  quotes: none;
+.features .icon span {
+  font-size: 36px;
 }
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: "";
-  content: none;
+.testimonial li {
+  font-weight: 300;
+  color: var(--light-blue);
+  text-align: center;
 }
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
+.testimonial blockquote {
+  width: 840px;
+  font-style: italic;
+  font-size: 24px;
+  line-height: 36px;
 }
-a {
-  text-decoration: none;
-  color: inherit;
-}
-img {
-  vertical-align: top;
-}
-button,
-input {
-  background: none;
-  border: none;
+.testimonial small {
+  font-weight: 300;
+  text-transform: uppercase;
 }
