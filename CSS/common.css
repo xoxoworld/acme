@@ -1,6 +1,6 @@
-@import url('normalize.css');
-@import url('reset.css');
-@import url('flex-utility.css');
+@import url("normalize.css");
+@import url("reset.css");
+@import url("flex-utility.css");
 
 :root {
   /* Layout */
@@ -37,7 +37,9 @@ body {
   /* font-family: "Open Sans", sans-serif;
   font-size:var(--base-font);
   line-height:var(--base-unit); */
-  font:var(--base-font)/var(--base-unit) "Open Sans", sans-serif;
+  font:
+    var(--base-font)/var(--base-unit) "Open Sans",
+    sans-serif;
 }
 
 /* 폰트 위계 */
@@ -45,8 +47,8 @@ body {
   font-size: var(--heading--x-l);
   line-height: calc(var(--base-unit) * 3);
   color: var(--hero--title);
-  text-transform:uppercase;
-  letter-spacing:2%;
+  text-transform: uppercase;
+  letter-spacing: 2%;
 }
 
 .text-heading-s {
@@ -69,96 +71,96 @@ body {
   font-size: var(--body--m-plus);
   line-height: var(--base-unit);
 }
-.text-nav{
-  font-size:var(--nav--item);
+.text-nav {
+  font-size: var(--nav--item);
   font-weight: bold;
   text-transform: uppercase;
 }
 /* 링크 버튼 */
-.btn{
+.btn {
   height: 39px;
   background: var(--super--light--gray);
-  border-radius:3px;
+  border-radius: 3px;
   padding: 0 20px;
   display: inline-flex;
-  color:var(--medium--gray);
+  color: var(--medium--gray);
   align-items: center;
   font-size: calc(var(--base-font) * 0.875);
   font-weight: bold;
-  gap:5px;
-  text-transform:uppercase;
+  gap: 5px;
+  text-transform: uppercase;
 }
-.btn .material-icons{
+.btn .material-icons {
   font-size: 14px;
 }
-.btn-primary{
+.btn-primary {
   background: var(--primary);
-  color:var(--secondary);
+  color: var(--secondary);
 }
-.btn.big{
+.btn.big {
   height: calc(var(--base-unit) * 2);
   padding: 0 30px;
 }
 
 /* 폼 요소 */
-.hero{
+.hero {
   background: var(--hero);
 }
-form{
-  width: 350px;  
+form {
+  width: 350px;
   display: flex;
-  flex-direction:column;
-  gap:10px;
+  flex-direction: column;
+  gap: 10px;
 }
-form .field{
+form .field {
   height: calc(var(--base-unit) * 2);
   background: var(--white);
-  border-radius:3px;
+  border-radius: 3px;
   padding: 0 20px;
   display: flex;
   align-items: center;
-  color:var(--light--gray);
+  color: var(--light--gray);
 }
-form .field input{
-  font-style:italic;
-  color:var(--black);
+form .field input {
+  font-style: italic;
+  color: var(--black);
 }
-form .field input::placeholder{
-  color:var(--super--light--gray);
+form .field input::placeholder {
+  color: var(--super--light--gray);
 }
-form button{
+form button {
   height: calc(var(--base-unit) * 2);
-  border-radius:3px;
+  border-radius: 3px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color:var(--white);
+  color: var(--white);
   font-size: calc(var(--base-font) * 1.125);
-  text-transform:uppercase;
+  text-transform: uppercase;
   font-weight: bold;
-  border:1px solid var(--white);
+  border: 1px solid var(--white);
 }
 /* 레이아웃 */
-.container{
+.container {
   width: 1272px;
-  margin:0 auto;
+  margin: 0 auto;
 }
-.inner-pd{
+.inner-pd {
   padding: calc(var(--base-unit) * 3) 0;
 }
-.inner-top-pd{
+.inner-top-pd {
   padding-top: calc(var(--base-unit) * 3);
 }
-.hidden{
+.hidden {
   position: absolute;
-  clip-path:inset(50%);
+  clip-path: inset(50%);
   width: 1px;
   height: 1px;
   overflow: hidden;
 }
 
-hr{
-  border:none;
+hr {
+  border: none;
   /* border-top:1px solid var(--super--light--gray); */
   height: 1px;
   background: var(--super--light--gray);
@@ -168,12 +170,48 @@ hr{
 body > header {
   background: var(--white);
   padding: var(--base-unit) 0;
-  box-shadow:0 4px 5px rgba(0,0,0,.1);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
 }
 
-header nav ul{
-  gap:10px;
+header nav ul {
+  gap: 10px;
 }
-header nav ul li:first-child{
+header nav ul li:first-child {
   margin-right: 40px;
+}
+
+/* 슬라이드 */
+.slidewrapper {
+  position: relative;
+  overflow: hidden;
+}
+.slidecontainer {
+  width: 300%; /* js 부모 너비파악, 슬라이드 개수 파악, 너비 계산 지정할 예정 */
+  display: flex;
+  transition: 0.3s ease-out;
+}
+.slidecontainer li {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--base-unit);
+}
+.slidewrapper button {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light--gray);
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.slidewrapper button.prev {
+  left: 0;
+}
+.slidewrapper button.next {
+  right: 0;
 }
