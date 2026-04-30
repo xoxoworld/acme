@@ -1,0 +1,7 @@
+.feedback {
+  width: 320px;
+  padding: 20px;
+  color: #f30000;
+  border-radius: 3px;
+  background: var(--white);
+}
