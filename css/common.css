@@ -186,10 +186,25 @@ section .header {
 }
 
 /* 헤더 */
+
+body {
+  padding-top: 108px;
+}
 body > header {
   background: var(--white);
   padding: var(--base-unit) 0;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.5s;
+}
+body.active {
+  padding-top: 80px;
+}
+body.active > header {
+  padding: calc(var(--base-unit) / 2) 0;
 }
 
 header nav ul {
