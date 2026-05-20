@@ -13,7 +13,7 @@
   display: flex;
   flex-direction: column;
   gap: var(--base-unit);
-  /* visibility: hidden; */
+  visibility: hidden;
 }
 .feedback:after {
   content: "";
