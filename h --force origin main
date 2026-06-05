@@ -1,0 +1,206 @@
+[33mcommit dce3109e7b63c161ef098dc70d5ebd62a8db4384[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: xoxo <sung021125@gmail.com>
+Date:   Fri Jun 5 13:49:07 2026 +0900
+
+    페이저 수정
+
+[33mcommit e5f8e1b7b2a6b226a55c5d82604ae54e9d4fd62e[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Wed May 20 16:33:28 2026 +0900
+
+    feat:feedback func add
+
+[33mcommit 20d4df641160e3a5880c08c65f97ce9f3c17b133[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Wed May 20 15:51:41 2026 +0900
+
+    feat: validation
+
+[33mcommit 48f858cd827ac1cd86d877fb934123edfc7630a5[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Wed May 20 15:13:33 2026 +0900
+
+    feat: accordion 수정
+
+[33mcommit e90bf436031975079eb4ed1bde57054d685bb6c9[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Wed May 20 14:51:41 2026 +0900
+
+    feat: accordion add
+
+[33mcommit c95bfd91da266218a0ac299c9c609fa4c28b14d1[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Wed May 20 13:50:59 2026 +0900
+
+    feat:변수생성, 슬라이드 배치
+
+[33mcommit 6792753be2df8a2c5bcc53f033d8e4a21c2a417d[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Wed May 20 11:53:34 2026 +0900
+
+    feat: header 고정
+
+[33mcommit 402b15e63943a5db26820309f3f9b8e9265193ad[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Thu May 7 16:18:02 2026 +0900
+
+    feat: accordion detail 태그 활용
+
+[33mcommit 05e7c5fa0ce1f16d362d52223ac140441e626532[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Thu Apr 30 17:28:30 2026 +0900
+
+    feat: header link add
+
+[33mcommit 11b5077390f14f2f5785515af62347c8f05a1ee1[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Thu Apr 30 17:25:12 2026 +0900
+
+    style: feedback tooltip
+
+[33mcommit df7fad5484f7bc1f7b948fc51312f9833dd683f0[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Thu Apr 30 16:42:23 2026 +0900
+
+    feat:signup feedback add
+
+[33mcommit 274cc856fc90407b73429c52a962e1d342b99808[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Thu Apr 30 16:34:31 2026 +0900
+
+    feat: signup html/css add
+
+[33mcommit 732b5afd282cc90ccbda60f77406d2dfe89b8fac[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Thu Apr 30 16:34:06 2026 +0900
+
+    feat:signup html/css add
+
+[33mcommit fb1888fcdcc580ca4217b58629cd78b656e3fb15[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Thu Apr 30 16:27:08 2026 +0900
+
+    feat:signin HTML/CSS add
+
+[33mcommit 83afb09a3750442ad69375566193df05dcbbe93f[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Thu Apr 30 15:49:41 2026 +0900
+
+    feat: About html/css add
+
+[33mcommit c652fbb9def0ea52868ede1e58c6ef0febcfeda5[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Thu Apr 30 14:38:54 2026 +0900
+
+    feat:footer HTML/CSS add
+
+[33mcommit ec334e9cefef842907e817a11de6ca8c0120f1bc[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Thu Apr 30 14:31:02 2026 +0900
+
+    style: cta gap 추가
+
+[33mcommit 6977c32f26511db6154919352353b4191b984b74[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Thu Apr 30 14:27:45 2026 +0900
+
+    feat: CTA html/css add
+
+[33mcommit 2a8165709695d5e9b122b8eaf1fc8db3ad317104[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Thu Apr 30 14:12:02 2026 +0900
+
+    feat: testimonial HTML/CSS 추가
+
+[33mcommit dc4d2fc32f2941ffa7fe1c71cdfda011738ef45c[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Wed Apr 29 15:48:38 2026 +0900
+
+    style: HR style 추가
+
+[33mcommit 111dcbc8f0608f970b58996c3b1ded8826e86110[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Wed Apr 29 15:44:32 2026 +0900
+
+    feat: Features HTML/CSS 추가
+
+[33mcommit ebd635be6fc6352a3db8c002024cb07029414db7[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Wed Apr 29 15:04:36 2026 +0900
+
+    feat: Hero HTML/CSS 추가
+
+[33mcommit 8431d941798c0774069b1bded717899353e163e5[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Wed Apr 29 14:24:21 2026 +0900
+
+    style: header
+    
+    - logo IR
+    - 메뉴 배치
+
+[33mcommit 6551782ea765a53a6f26504a2227bf06527337cd[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Wed Apr 29 13:49:47 2026 +0900
+
+    feat: header HTML 구조 추가
+
+[33mcommit 6b139fbe4096d0a886c86e05df975fef3cbb2bc8[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Wed Apr 29 11:35:39 2026 +0900
+
+    feat: index.html 구조 추가
+
+[33mcommit 1b89fd0d8e7eeedb77c45e947b553e12ed006a5b[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Wed Apr 29 10:51:42 2026 +0900
+
+    feat: 공통 레이아웃/flex 유틸리티 추가
+
+[33mcommit 8a023bf3c97d05f83fd67f7e437e16932e095e05[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Wed Apr 29 10:21:38 2026 +0900
+
+    feat: 공통 폼 컴포넌트 HTML/CSS 추가
+
+[33mcommit 64cf0b3b62852b6c36cf59804a13bac2d759304e[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Tue Apr 28 15:47:45 2026 +0900
+
+    링크 버튼 스타일
+
+[33mcommit 0a554e695672131279a7c296e45309abd9c034a1[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Tue Apr 28 15:33:46 2026 +0900
+
+    폰트 위계 설정
+
+[33mcommit 0eaa14eb93867abc9d7efba5748d3a404937d9dc[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Tue Apr 28 15:19:15 2026 +0900
+
+    컬러 폰트 변수 생성
+
+[33mcommit e7213e01db3e573c279df1c4cba5578fd9c736bb[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Tue Apr 28 15:03:38 2026 +0900
+
+    웹폰트 로드 적용
+
+[33mcommit 51d70e7ec7de8733adf90dd1e4ff014be9a5ba2e[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Tue Apr 28 14:41:51 2026 +0900
+
+    제목 위계 추가
+
+[33mcommit 7d265f9c83760dcfec398208b2e3d56080d9e9cc[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Tue Apr 28 14:21:02 2026 +0900
+
+    reset css 추가
+
+[33mcommit ce858e27c65e2288a0b00364cac7798d1b76f9c9[m
+Author: alikerock <alikerock@gmail.com>
+Date:   Tue Apr 28 14:08:13 2026 +0900
+
+    index.html 생성
