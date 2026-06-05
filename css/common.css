@@ -247,6 +247,33 @@ header nav ul li:first-child {
   right: 0;
 }
 
+/* 슬라이드 페이저 */
+.slidewrapper .pager {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 12px;
+}
+.slidewrapper .pager span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--super--light--gray);
+  border: 1px solid var(--light--gray);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.slidewrapper .pager span:hover {
+  background: var(--light--gray);
+}
+.slidewrapper .pager span.active {
+  background: var(--medium-blue);
+  border-color: var(--medium-blue);
+  transform: scale(1.1);
+}
+
 /* CTA */
 .cta {
   background: var(--c-t-a);
